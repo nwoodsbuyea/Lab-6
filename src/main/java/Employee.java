@@ -12,6 +12,13 @@ public class Employee {
         this.position = position;
     }
     
+    public Employee(String name, int idNumber){
+        this.name = name;
+        this.idNumber = idNumber;
+        department = "";
+        position = "";
+    }
+    
     public Employee() {
         name = "";
         idNumber = 0;
